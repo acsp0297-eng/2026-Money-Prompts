@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo Brutalism Instructions | Red Yellow White Black</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: #000000;
+            font-family: 'Inter', sans-serif;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+        .title {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 900;
+            color: #ffffff;
+            text-shadow: 10px 10px 0 #ff0000;
+            margin: 0 0 1rem 0;
+            line-height: 0.9;
+        }
+        .subtitle {
+            font-size: clamp(1.2rem, 3vw, 2rem);
+            color: #ffff00;
+            text-shadow: 6px 6px 0 #000000;
+            margin: 0;
+            font-weight: 700;
+        }
+        .shape-bg {
+            position: absolute;
+            width: 400px;
+            height: 300px;
+            background: #ff0000;
+            border: 15px solid #ffffff;
+            box-shadow: 25px 25px 0 #ffff00;
+            top: -100px;
+            right: -100px;
+            z-index: 1;
+            transform: rotate(-15deg);
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+        .card {
+            background: #ffffff;
+            border: 12px solid #ff0000;
+            box-shadow: 20px 20px 0 #ffff00;
+            padding: 2rem;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translate(-5px, -5px);
+        }
+        .card-title {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #000000;
+            margin: 0 0 1rem 0;
+            text-transform: uppercase;
+        }
+        .card-text {
+            color: #ff0000;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+        .cta-button {
+            background: #ffff00;
+            color: #000000;
+            border: 8px solid #ff0000;
+            padding: 1rem 2rem;
+            font-weight: 900;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+            box-shadow: 12px 12px 0 #ff0000;
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #ff0000;
+            color: #ffffff;
+            box-shadow: 12px 12px 0 #000000;
+        }
+        .accent-shape {
+            position: fixed;
+            bottom: 20%;
+            left: 10%;
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(45deg, #ff0000, #ffff00);
+            border: 10px solid #ffffff;
+            border-radius: 50%;
+            box-shadow: 15px 15px 0 #000000;
+            animation: float 3s ease-in-out infinite;
+            z-index: -1;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        @media (max-width: 768px) {
+            .container { padding: 1rem; }
+            .content-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="accent-shape"></div>
+    <div class="container">
+        <div class="shape-bg"></div>
+        <div class="header">
+            <h1 class="title">NEO<br>BRUTALISM</h1>
+            <p class="subtitle">INSTRUCTIONS HUB</p>
+        </div>
+        
+        <div class="content-grid">
+            <div class="card">
+                <h2 class="card-title">X/Twitter Threads</h2>
+                <p class="card-text">Generate 10-15 post viral threads about 2026 side hustles. Use bold neo brutalism prompts with red/yellow/white/black design elements for maximum engagement and follower growth.</p>
+                <a href="#" class="cta-button">Copy Prompt</a>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title">Instagram Carousels</h2>
+                <p class="card-text">Create 5 high-converting carousel posts with neo brutalism hooks, captions, and CTAs. Perfect color scheme: red/yellow/white/black for eye-catching affiliate promotions.</p>
+                <a href="#" class="cta-button">Copy Prompt</a>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title">Pinterest Pins</h2>
+                <p class="card-text">Complete pin packages with Midjourney prompts, titles, and descriptions. Drive affiliate traffic using neo brutalism red/yellow/white/black aesthetic.</p>
+                <a href="#" class="cta-button">Copy Prompt</a>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title">Viral Memes</h2>
+                <p class="card-text">Design 20 meme templates with funny captions and neo brutalism image descriptions. Red/yellow/white/black scheme guarantees maximum shares.</p>
+                <a href="#" class="cta-button">Copy Prompt</a>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title">Blog/Reddit Posts</h2>
+                <p class="card-text">SEO blog outlines and upvote-bait Reddit posts for r/web_design. Target "neo brutalism web design 2026" with engaging introductions.</p>
+                <a href="#" class="cta-button">Copy Prompt</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
